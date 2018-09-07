@@ -1,0 +1,79 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4211796997,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "002 Verify that Users can receive incentives for choosing a designated lower-cost provider (Member rewards)",
+        "id": "verification-for-member-rewards-scenarios;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 7,
+            "name": "User logins in to member connect Application with \"sumani@memberconnect.v3\" and \"Aug#2018\"",
+            "keyword": "Given "
+          },
+          {
+            "line": 8,
+            "name": "User navigates to \"Customer Search\" tab.",
+            "keyword": "When "
+          },
+          {
+            "line": 9,
+            "name": "User enters \"Erica\" in \"First Name\" field",
+            "keyword": "When "
+          },
+          {
+            "line": 10,
+            "name": "selected Member details are displayed \"Erica\"",
+            "keyword": "Then "
+          },
+          {
+            "line": 11,
+            "name": "Agent clicks on Verify button",
+            "keyword": "Then "
+          },
+          {
+            "line": 12,
+            "name": "User navigates to \"Member 360\" tab.",
+            "keyword": "When "
+          },
+          {
+            "line": 13,
+            "name": "User clicks on \"View Details\" under \"Rewards\" section.",
+            "keyword": "And "
+          },
+          {
+            "line": 14,
+            "name": "User should be able to view the rewards summary.",
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verification for member rewards scenarios",
+    "description": "",
+    "id": "verification-for-member-rewards-scenarios",
+    "keyword": "Feature",
+    "uri": "website/RewardsUserStory/MemberTotalRewards.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@website"
+      }
+    ]
+  }
+]
